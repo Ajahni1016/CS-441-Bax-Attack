@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/ajahni1016/Projects/cs441/CS-441-Animation/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml",
+            "map": [
+                {
+                    "source": "/home/ajahni1016/.gradle/caches/transforms-3/2425641647a32bb69a5d330c752cc944/transformed/jetified-core-1.27.0/res/values-it/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,238,289,419,553",
+                        "endColumns": "47,50,129,133,89",
+                        "endOffsets": "237,288,418,552,642"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,107,162,296,434",
+                        "endColumns": "51,54,133,137,93",
+                        "endOffsets": "102,157,291,429,523"
+                    }
+                }
+            ]
+        }
+    ]
+}

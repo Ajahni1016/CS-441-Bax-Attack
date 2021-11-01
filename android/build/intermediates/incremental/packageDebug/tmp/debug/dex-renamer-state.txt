@@ -1,0 +1,4 @@
+#Mon Oct 18 10:06:32 EDT 2021
+base.0=/home/ajahni1016/Projects/cs441/CS-441-Animation/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

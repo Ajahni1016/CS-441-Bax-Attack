@@ -1,0 +1,15 @@
+edu.binghamton.cs:string/__arcore_installing = 0x7f030005
+edu.binghamton.cs:string/__arcore_install_feature = 0x7f030004
+edu.binghamton.cs:string/__arcore_install_app = 0x7f030003
+edu.binghamton.cs:string/__arcore_continue = 0x7f030002
+edu.binghamton.cs:id/__arcore_cancelButton = 0x7f050000
+edu.binghamton.cs:string/__arcore_cancel = 0x7f030001
+edu.binghamton.cs:layout/__arcore_education = 0x7f060000
+edu.binghamton.cs:id/__arcore_messageText = 0x7f050002
+edu.binghamton.cs:raw/keep_arcore = 0x7f070000
+edu.binghamton.cs:id/__arcore_continueButton = 0x7f050001
+edu.binghamton.cs:drawable/ic_launcher_foreground = 0x7f020001
+edu.binghamton.cs:color/ic_background_color = 0x7f010000
+edu.binghamton.cs:string/app_name = 0x7f030000
+edu.binghamton.cs:drawable/ic_launcher = 0x7f020000
+edu.binghamton.cs:style/GdxTheme = 0x7f040000
