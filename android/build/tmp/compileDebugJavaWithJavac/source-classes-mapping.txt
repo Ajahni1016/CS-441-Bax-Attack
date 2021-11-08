@@ -1,0 +1,10 @@
+edu/binghamton/cs/BuildConfig.java
+ edu.binghamton.cs.BuildConfig
+edu/binghamton/cs/R.java
+ edu.binghamton.cs.R
+ edu.binghamton.cs.R$color
+ edu.binghamton.cs.R$drawable
+ edu.binghamton.cs.R$string
+ edu.binghamton.cs.R$style
+edu/binghamton/cs/AndroidLauncher.java
+ edu.binghamton.cs.AndroidLauncher

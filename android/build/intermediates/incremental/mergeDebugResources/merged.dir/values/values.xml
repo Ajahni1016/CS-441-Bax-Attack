@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="ic_background_color">#FFFFFFFF</color>
-    <string name="__arcore_cancel">Cancel</string>
-    <string name="__arcore_continue">Continue</string>
-    <string name="__arcore_install_app">This application requires the latest version of Google Play Services for AR.</string>
-    <string name="__arcore_install_feature">This feature requires the latest version of Google Play Services for AR.</string>
-    <string name="__arcore_installing">Installing Google Play Services for AR…</string>
-    <string name="app_name">Custom Drawing</string>
+    <string name="app_name">Bax Attack</string>
     <style name="GdxTheme" parent="android:Theme">
 		<item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:colorBackgroundCacheHint">@null</item>

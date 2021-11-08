@@ -5,86 +5,48 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="24"
-8-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml
+8        android:minSdkVersion="14"
+8-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml
+9-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml
 10
-11    <queries>
-11-->[com.google.ar:core:1.27.0] /home/ajahni1016/.gradle/caches/transforms-3/2425641647a32bb69a5d330c752cc944/transformed/jetified-core-1.27.0/AndroidManifest.xml:29:5-31:15
-12        <package android:name="com.google.ar.core" />
-12-->[com.google.ar:core:1.27.0] /home/ajahni1016/.gradle/caches/transforms-3/2425641647a32bb69a5d330c752cc944/transformed/jetified-core-1.27.0/AndroidManifest.xml:30:9-54
-12-->[com.google.ar:core:1.27.0] /home/ajahni1016/.gradle/caches/transforms-3/2425641647a32bb69a5d330c752cc944/transformed/jetified-core-1.27.0/AndroidManifest.xml:30:18-51
-13    </queries>
-14
-15    <application
-15-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:5:5-24:19
-16        android:allowBackup="true"
-16-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:6:9-35
-17        android:appCategory="game"
-17-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:9:9-35
-18        android:debuggable="true"
-19        android:extractNativeLibs="false"
-20        android:icon="@drawable/ic_launcher"
-20-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:7:9-45
-21        android:isGame="true"
-21-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:8:9-30
-22        android:label="@string/app_name"
-22-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:10:9-41
-23        android:testOnly="true"
-24        android:theme="@style/GdxTheme" >
-24-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:11:9-40
-25        <activity
-25-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:12:9-23:20
-26            android:name="edu.binghamton.cs.AndroidLauncher"
-26-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:13:13-61
-27            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|screenLayout"
-27-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:16:13-107
-28            android:exported="true"
-28-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:17:13-36
-29            android:label="@string/app_name"
-29-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:14:13-45
-30            android:screenOrientation="landscape" >
-30-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:15:13-50
-31            <meta-data
-31-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:18:13-85
-32                android:name="com.google.ar.core"
-32-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:18:24-57
-33                android:value="required" />
-33-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:18:58-82
-34
-35            <intent-filter>
-35-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:19:13-22:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:20:17-69
-36-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:20:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:21:17-77
-38-->/home/ajahni1016/Projects/cs441/CS-441-Animation/android/AndroidManifest.xml:21:27-74
-39            </intent-filter>
-40        </activity>
-41        <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
-42        <meta-data
-42-->[com.google.ar:core:1.27.0] /home/ajahni1016/.gradle/caches/transforms-3/2425641647a32bb69a5d330c752cc944/transformed/jetified-core-1.27.0/AndroidManifest.xml:36:9-38:41
-43            android:name="com.google.ar.core.min_apk_version"
-43-->[com.google.ar:core:1.27.0] /home/ajahni1016/.gradle/caches/transforms-3/2425641647a32bb69a5d330c752cc944/transformed/jetified-core-1.27.0/AndroidManifest.xml:37:13-62
-44            android:value="212010000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
-44-->[com.google.ar:core:1.27.0] /home/ajahni1016/.gradle/caches/transforms-3/2425641647a32bb69a5d330c752cc944/transformed/jetified-core-1.27.0/AndroidManifest.xml:38:13-38
-45        <activity
-45-->[com.google.ar:core:1.27.0] /home/ajahni1016/.gradle/caches/transforms-3/2425641647a32bb69a5d330c752cc944/transformed/jetified-core-1.27.0/AndroidManifest.xml:40:9-46:80
-46            android:name="com.google.ar.core.InstallActivity"
-46-->[com.google.ar:core:1.27.0] /home/ajahni1016/.gradle/caches/transforms-3/2425641647a32bb69a5d330c752cc944/transformed/jetified-core-1.27.0/AndroidManifest.xml:41:13-62
-47            android:configChanges="keyboardHidden|orientation|screenSize"
-47-->[com.google.ar:core:1.27.0] /home/ajahni1016/.gradle/caches/transforms-3/2425641647a32bb69a5d330c752cc944/transformed/jetified-core-1.27.0/AndroidManifest.xml:42:13-74
-48            android:excludeFromRecents="true"
-48-->[com.google.ar:core:1.27.0] /home/ajahni1016/.gradle/caches/transforms-3/2425641647a32bb69a5d330c752cc944/transformed/jetified-core-1.27.0/AndroidManifest.xml:43:13-46
-49            android:exported="false"
-49-->[com.google.ar:core:1.27.0] /home/ajahni1016/.gradle/caches/transforms-3/2425641647a32bb69a5d330c752cc944/transformed/jetified-core-1.27.0/AndroidManifest.xml:44:13-37
-50            android:launchMode="singleTop"
-50-->[com.google.ar:core:1.27.0] /home/ajahni1016/.gradle/caches/transforms-3/2425641647a32bb69a5d330c752cc944/transformed/jetified-core-1.27.0/AndroidManifest.xml:45:13-43
-51            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
-51-->[com.google.ar:core:1.27.0] /home/ajahni1016/.gradle/caches/transforms-3/2425641647a32bb69a5d330c752cc944/transformed/jetified-core-1.27.0/AndroidManifest.xml:46:13-77
-52    </application>
-53
-54</manifest>
+11    <application
+11-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:5:5-22:19
+12        android:allowBackup="true"
+12-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:6:9-35
+13        android:appCategory="game"
+13-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:9:9-35
+14        android:debuggable="true"
+15        android:icon="@drawable/ic_launcher"
+15-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:7:9-45
+16        android:isGame="true"
+16-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:8:9-30
+17        android:label="@string/app_name"
+17-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:10:9-41
+18        android:testOnly="true"
+19        android:theme="@style/GdxTheme" >
+19-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:11:9-40
+20        <activity
+20-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:12:9-21:20
+21            android:name="edu.binghamton.cs.AndroidLauncher"
+21-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:13:13-61
+22            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|screenLayout"
+22-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:16:13-107
+23            android:label="@string/app_name"
+23-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:14:13-45
+24            android:screenOrientation="landscape" >
+24-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:15:13-50
+25            <intent-filter>
+25-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:17:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:18:17-69
+26-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:18:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:19:17-77
+28-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31    </application>
+32
+33</manifest>
