@@ -16,6 +16,8 @@ public class Player {
     Animation<TextureRegion> rightWalkAnimation;
     static int x_pos=50;
     static int y_pos=50;
+    static int height;
+    static int width;
     float stateTime;
 
     //SPRITES
@@ -87,10 +89,40 @@ public class Player {
         this.upWalkAnimation = new Animation<TextureRegion>((float)0.225, upSpriteFrames);
         this.rightWalkAnimation = new Animation<TextureRegion>((float)0.225, rightSpriteFrames);
         this.stateTime = (float)0;
+
+        width = this.downWalkAnimation.getKeyFrame(this.stateTime).getRegionWidth();
+
     }
 
+    public void getHeight(){
+        if(this.dir == "up"){
+            height = this.upWalkAnimation.getKeyFrame(this.stateTime).getRegionHeight();
+        }
+        if(this.dir == "down"){
+            height = this.downWalkAnimation.getKeyFrame(this.stateTime).getRegionHeight();
+        }
+        if(this.dir == "left"){
+            height = this.leftWalkAnimation.getKeyFrame(this.stateTime).getRegionHeight();
+        }
+        if(this.dir == "right"){
+            height = this.rightWalkAnimation.getKeyFrame(this.stateTime).getRegionHeight();
+        }
+    }
 
-
+    public void getWidth(){
+        if(this.dir == "up"){
+            width = this.upWalkAnimation.getKeyFrame(this.stateTime).getRegionWidth();
+        }
+        if(this.dir == "down"){
+            width = this.downWalkAnimation.getKeyFrame(this.stateTime).getRegionWidth();
+        }
+        if(this.dir == "left"){
+            width = this.leftWalkAnimation.getKeyFrame(this.stateTime).getRegionWidth();
+        }
+        if(this.dir == "right"){
+            width = this.rightWalkAnimation.getKeyFrame(this.stateTime).getRegionWidth();
+        }
+    }
 
     public static class Projectile{
         String shoot_dir;
