@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 
+import java.awt.Rectangle;
 import java.util.ArrayList;
 
 public class Player {
@@ -107,7 +108,7 @@ public class Player {
         if(this.dir == "right"){
             height = this.rightWalkAnimation.getKeyFrame(this.stateTime).getRegionHeight();
         }
-        return height;
+        return height+130;
     }
 
     public float getWidth(){
@@ -123,7 +124,7 @@ public class Player {
         if(this.dir == "right"){
             width = this.rightWalkAnimation.getKeyFrame(this.stateTime).getRegionWidth();
         }
-        return width;
+        return width+10;
     }
 
     public static class Projectile{
@@ -133,6 +134,7 @@ public class Player {
         int y = Player.y_pos+150;
         SpriteBatch batch = new SpriteBatch();
         ShapeRenderer shapeRenderer = new ShapeRenderer();
+        Rectangle hitbox = new Rectangle();
         Texture book = new Texture(Gdx.files.internal("data/book.png"));
 
         Projectile(String d){
