@@ -5,6 +5,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 
 import java.util.ArrayList;
 
@@ -21,7 +22,6 @@ public class Player {
     float stateTime;
 
     //SPRITES
-    String curr_sprite;
     ArrayList<String> spriteList = new ArrayList();
     // Walking Sprites
     String up_walk = "data/player_up_walk.png";
@@ -94,7 +94,7 @@ public class Player {
 
     }
 
-    public void getHeight(){
+    public float getHeight(){
         if(this.dir == "up"){
             height = this.upWalkAnimation.getKeyFrame(this.stateTime).getRegionHeight();
         }
@@ -107,9 +107,10 @@ public class Player {
         if(this.dir == "right"){
             height = this.rightWalkAnimation.getKeyFrame(this.stateTime).getRegionHeight();
         }
+        return height;
     }
 
-    public void getWidth(){
+    public float getWidth(){
         if(this.dir == "up"){
             width = this.upWalkAnimation.getKeyFrame(this.stateTime).getRegionWidth();
         }
@@ -122,6 +123,7 @@ public class Player {
         if(this.dir == "right"){
             width = this.rightWalkAnimation.getKeyFrame(this.stateTime).getRegionWidth();
         }
+        return width;
     }
 
     public static class Projectile{
@@ -130,6 +132,7 @@ public class Player {
         int x = Player.x_pos+150;
         int y = Player.y_pos+150;
         SpriteBatch batch = new SpriteBatch();
+        ShapeRenderer shapeRenderer = new ShapeRenderer();
         Texture book = new Texture(Gdx.files.internal("data/book.png"));
 
         Projectile(String d){
