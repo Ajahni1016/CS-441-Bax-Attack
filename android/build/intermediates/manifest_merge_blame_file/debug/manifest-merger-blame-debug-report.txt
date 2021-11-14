@@ -5,7 +5,7 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="14"
+8        android:minSdkVersion="21"
 8-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml
 9        android:targetSdkVersion="31" />
 9-->/home/ajahni1016/Projects/cs441/CS-441-Bax-Attack/android/AndroidManifest.xml

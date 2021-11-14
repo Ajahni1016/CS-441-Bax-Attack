@@ -128,12 +128,12 @@ public class Player {
     }
 
     public static class Projectile{
+        int hits = 0;
         String shoot_dir;
         int timer=100;
         int x = Player.x_pos+150;
         int y = Player.y_pos+150;
         SpriteBatch batch = new SpriteBatch();
-        ShapeRenderer shapeRenderer = new ShapeRenderer();
         Rectangle hitbox = new Rectangle();
         Texture book = new Texture(Gdx.files.internal("data/book.png"));
 
