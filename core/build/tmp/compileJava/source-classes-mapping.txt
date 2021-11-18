@@ -6,3 +6,4 @@ edu/binghamton/cs/Player.java
 edu/binghamton/cs/BaxAttack.java
  edu.binghamton.cs.BaxAttack
  edu.binghamton.cs.BaxAttack$1
+ edu.binghamton.cs.BaxAttack$2
