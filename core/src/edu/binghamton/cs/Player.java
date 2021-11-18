@@ -21,6 +21,7 @@ public class Player {
     static int height;
     static int width;
     float stateTime;
+    boolean isDead = false;
 
     //SPRITES
     ArrayList<String> spriteList = new ArrayList();
